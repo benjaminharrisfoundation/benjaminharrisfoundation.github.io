@@ -1,0 +1,39 @@
+* {
+  --bg-color: #090909;
+  --tx-color: #f6f6f6;
+}
+html {
+  background-color: var(--bg-color);
+  color: var(--tx-color);
+}
+
+.top-banner {
+  --top-iframe-height: 0.7em;
+  max-height: var(--top-iframe-height);
+  padding-bottom: var(--top-iframe-height);
+  min-width: 75vw;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.bottom-banner {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 75vw;
+  max-width: 100vw;
+  overflow: hidden;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  overflow-x: visible;
+  overflow-y: hidden;
+  overflow-wrap: break-word;
+  overflow-inline: clip;
+  z-index: 99;
+}
+.banner {
+  background-color: #bbb;
+  color: #555;
+}
