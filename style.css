@@ -56,3 +56,13 @@ html {
     color: var(--tx-color);
     font-style: italic;
 }
+.highlighted {
+    background-color: #d9d909;
+}
+.smallText {
+    font-size: smaller;
+    font-style: italic;
+}
+.promo {
+    display: inherit;
+}
