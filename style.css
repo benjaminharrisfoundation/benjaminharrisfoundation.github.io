@@ -37,3 +37,22 @@ html {
   background-color: #bbb;
   color: #555;
 }
+
+.benName {
+    /* background: linear-gradient(45deg, rgb(63, 191, 255), rgb(255, 255, 255), rgb(255, 166, 225)); */
+    background: linear-gradient(45deg, pink, rgb(255, 166, 225));
+    /* background: linear-gradient(45deg, rgb(63, 191, 255), rgb(63, 191, 255), #fff,  rgb(255, 166, 225), rgb(255, 166, 225), rgb(255, 166, 225)); */
+    /* background: linear-gradient(45deg, rgb(63, 191, 255),  rgb(255, 166, 225), rgb(255, 255, 255), rgb(255, 166, 225), rgb(63, 191, 255)); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+.linkAlt1 {
+    color: var(--tx-color);
+    font-style: italic;
+}
