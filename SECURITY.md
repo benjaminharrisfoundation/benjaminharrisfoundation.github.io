@@ -9,4 +9,4 @@
 
 ## Reporting a Vulnerability
 
-To report a vulnerability, either create an issue, discission post, or email us.
+To report a vulnerability, either create an issue, discussion post, or email us at benjaminharrisfoundation@gmail.com.
