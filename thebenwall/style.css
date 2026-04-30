@@ -86,7 +86,3 @@ a {
   font-style: normal;
   color: var(--tx-color-two);
 }
-
-.invisButton {
-  all: unset;
-}

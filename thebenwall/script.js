@@ -13,11 +13,6 @@ function logConsole(message) {
   );
 }
 
-setInterval(() => {
-  document.getElementById("btmBnrPdg").style =
-    `min-height: calc(${document.getElementById("bottom-banner").getBoundingClientRect().height}px + 0.7em)`;
-}, 1000);
-
 if (true) {
   let url = document.location.href;
   if (url.match(/.*\/#.*/)) {
@@ -70,15 +65,14 @@ if (true) {
   }
 }
 
+
 document.getElementById("js-replace-01").outerHTML =
 `
     <div class="top-banner banner">
-      <a href="/index.html" style="display: inline">Home</a>
-      <a href="/join" style="display: inline">Apply to Join</a>
-      <a href="/donate" style="display: inline">Donate</a>
-      <a href="/records" style="display: inline">Records</a>
-      <a href="/more" style="display: inline">more</a>
-      <a href="/about" style="display: inline">about</a>
+      <a href="/thebenwall/index.html" style="display: inline">Home</a>
+      <a href="/thebenwall/join" style="display: inline">Join</a>
+      <a href="/thebenwall/archive" style="display: inline">Archive</a>
+      <a href="/thebenwall/about" style="display: inline">about</a>
     </div>
 `;
 
@@ -138,3 +132,8 @@ document.getElementById("js-replace-02").outerHTML =
       />
       </div>
 `;
+
+setInterval(() => {
+  document.getElementById("btmBnrPdg").style =
+    `min-height: calc(${document.getElementById("bottom-banner").getBoundingClientRect().height}px + 0.7em)`;
+}, 1000);
